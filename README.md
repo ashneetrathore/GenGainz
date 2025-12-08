@@ -37,4 +37,4 @@ GenGainz/
 ```
 
 ### :film_strip: DEMO
-![Watch the demo on Youtube](https://youtu.be/0SFPH_PaHoY)
+[Watch the demo on Youtube](https://youtu.be/0SFPH_PaHoY)

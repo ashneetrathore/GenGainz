@@ -1,8 +1,10 @@
-## :ant: GENGAINZ
+## :muscle: GENGAINZ
 
 ### :open_book: OVERVIEW
 Date: May 2025\
-Developer(s): Ashneet Rathore, Josephine Ligatsyah, Allison Yeh\
+Developer(s): Ashneet Rathore, Josephine Ligatsyah, Allison Yeh
+
+
 
 
 ### :classical_building: ARCHITECTURE

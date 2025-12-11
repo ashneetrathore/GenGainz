@@ -34,6 +34,7 @@ GenGainz/
 ├── postcss.config.mjs             # Contains configuration settings
 ├── README.md                      # Project documentation
 └── .gitignore                     # Excludes files and folders from version control
+```
 
 ### :film_strip: DEMO
 [Watch the demo on Youtube](https://youtu.be/xo7eef4Pw6g)

@@ -33,8 +33,7 @@ GenGainz/
 ├── next.config.mjs                # Contains configuration settings
 ├── postcss.config.mjs             # Contains configuration settings
 ├── README.md                      # Project documentation
-└── .gitignore                     # Specifies files and folders that shouldn't be included in the repo
-```
+└── .gitignore                     # Excludes files and folders from version control
 
 ### :film_strip: DEMO
 [Watch the demo on Youtube](https://youtu.be/xo7eef4Pw6g)

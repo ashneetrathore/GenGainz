@@ -6,6 +6,9 @@ Developer(s): Ashneet Rathore, Josephine Ligatsyah, Allison Yeh
 
 GenGainz is a full-stack AI-powered web application that creates personalized workout routines based on user demographics and fitness preferences. The app leverages AWS services and was developed in a four-day span as a submission for the AWS CloudHacks hackathon hosted at UCI.
 
+## :film_strip: DEMO
+[Watch the demo on Youtube](https://youtu.be/xo7eef4Pw6g)
+
 ## :classical_building: ARCHITECTURE
 > [!IMPORTANT]
 > The AWS services are no longer active, so the app cannot run live. For reference, the AWS Lambda function used in the backend has been included in the repo.
@@ -35,6 +38,3 @@ GenGainz/
 ├── README.md                      # Project documentation
 └── .gitignore                     # Excludes files and folders from version control
 ```
-
-## :film_strip: DEMO
-[Watch the demo on Youtube](https://youtu.be/xo7eef4Pw6g)

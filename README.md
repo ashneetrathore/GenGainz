@@ -6,7 +6,7 @@ Developer(s): Ashneet Rathore, Josephine Ligatsyah, Allison Yeh
 
 GenGainz is a full-stack AI-powered web application that creates personalized workout routines based on user demographics and fitness preferences. The app leverages AWS services and was developed in a four-day span as a submission for the AWS CloudHacks hackathon hosted at UCI.
 
-**Tech Stack** | Python, AWS Lambda, Amazon Bedrock, ExerciseDB API, React, Next.js, JavaScript, CSS, AWS Amplify, GitHub
+**Tech Stack** | Python, AWS Lambda, Amazon Bedrock, ExerciseDB API, React, Next.js (JavaScript), CSS, AWS Amplify, GitHub
 
 ## :film_strip: DEMO
 [Watch the demo on Youtube](https://youtu.be/xo7eef4Pw6g)
@@ -17,7 +17,7 @@ GenGainz is a full-stack AI-powered web application that creates personalized wo
 
 The backend logic is implemented in **Python** and runs entirely within **AWS Lambda**. When the user submits the form to generate a workout plan, the browser sends a request that triggers the Lambda function. In turn, Lambda responds to confirm that the request is allowed. Once the form data is received, Lambda calls the **ExerciseDB API** from RapidAPI to fetch relevant exercises and constructs a prompt based on both the user's input and the retrieved exercises. The prompt is then sent to **Amazon Bedrock**, where the **Claude Sonnet LLM** generates a personalized workout routine. Finally, the workout plan is returned from the Lambda function to the frontend for display.
 
-The frontend is built with **React + Next.js** (running on **Node.js**), **JavaScript**, and **CSS** for a structured, component-based interface. Users input demographic information (height, weight, sex, age), along with their fitness preferences such as workout duration and targeted body groups. **AWS Amplify** was used for deployment and integration with AWS backend services. During Amplify setup, GitHub was selected as the app's source and environment variables were configured directly in the Amplify console to securely manage API keys and backend URLs.
+The frontend is built with **React + Next.js** and **CSS** for a structured, component-based interface. Users input demographic information (height, weight, sex, age), along with their fitness preferences such as workout duration and targeted body groups. **AWS Amplify** was used for deployment and integration with AWS backend services. During Amplify setup, GitHub was selected as the app's source and environment variables were configured directly in the Amplify console to securely manage API keys and backend URLs.
 
 ## :open_file_folder: PROJECT FILE STRUCTURE
 ```bash

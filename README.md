@@ -13,7 +13,7 @@ GenGainz is a full-stack AI-powered web application that creates personalized wo
 
 ## :classical_building: ARCHITECTURE
 > [!IMPORTANT]
-> The AWS services are no longer active, so the app cannot run live. `workout_lambda.py` is included in the repo for reference. In production, this code runs as an AWS Lambda function hosted on AWS.
+> The AWS services for this project are no longer active, so the app cannot run live.The file `workout_lambda.py` is included in the repo for reference. In production, this code runs as a Lambda function hosted on AWS.
 
 The backend logic is implemented in **Python** and runs entirely within **AWS Lambda**. When the user submits the form to generate a workout plan, the browser sends a request that triggers the Lambda function. In turn, Lambda responds to confirm that the request is allowed. Once the form data is received, Lambda calls the **ExerciseDB API** from RapidAPI to fetch relevant exercises and constructs a prompt based on both the user's input and the retrieved exercises. The prompt is then sent to **Amazon Bedrock**, where the **Claude Sonnet LLM** generates a personalized workout routine. Finally, the workout plan is returned from the Lambda function to the frontend for display.
 

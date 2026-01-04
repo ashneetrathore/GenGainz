@@ -8,6 +8,8 @@ GenGainz is a full-stack AI-powered web application that creates personalized wo
 
 **Tech Stack** | Python, AWS Lambda, ExerciseDB API, Amazon Bedrock, React, Next.js (JavaScript), CSS, AWS Amplify
 
+View more of my full-stack web apps on GitHub [here](https://github.com/stars/ashneetrathore/lists/full-stack)
+
 ## :film_strip: DEMO
 [Watch the demo on Youtube](https://youtu.be/xo7eef4Pw6g)
 

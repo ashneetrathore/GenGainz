@@ -19,7 +19,7 @@ View more of my full-stack apps on GitHub [here](https://github.com/stars/ashnee
 
 The backend logic is implemented in **Python** and runs entirely within **AWS Lambda**. When the user submits the form to generate a workout plan, the browser sends a request that triggers the Lambda function. In turn, Lambda responds to confirm that the request is allowed. Once the form data is received, Lambda calls the **ExerciseDB API** from RapidAPI to fetch relevant exercises and constructs a prompt based on both the user's input and the retrieved exercises. The prompt is then sent to **Amazon Bedrock**, where the **Claude Sonnet LLM** generates a personalized workout routine. Finally, the workout plan is returned from the Lambda function to the frontend for display.
 
-The frontend is built with **React + Next.js** and *CSS*, where page-level components handle user input and display generated workout plans. User input includes demographic information (height, weight, sex, age), along with their fitness preferences such as workout duration and targeted body groups. 
+The frontend is built with **React + Next.js** and **CSS**, where page-level components handle user input and display generated workout plans. User input includes demographic information (height, weight, sex, age), along with their fitness preferences such as workout duration and targeted body groups. 
 
 **AWS Amplify** was used for deployment and integration with AWS backend services. During Amplify setup, GitHub was selected as the app's source and environment variables were configured directly in the Amplify console to securely manage API keys and backend URLs.
 
